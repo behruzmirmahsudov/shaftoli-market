@@ -1,0 +1,45 @@
+.banner {
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.banner-inner {
+    background: linear-gradient(135deg, #7000ff, #b366ff);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.tag {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.banner-text h1 {
+    font-size: 38px;
+    margin: 14px 0 8px;
+}
+
+.banner-text p {
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.banner-text button {
+    background: #fff;
+    color: #7000ff;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.banner-img {
+    font-size: 130px;
+}

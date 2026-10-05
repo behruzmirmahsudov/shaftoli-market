@@ -1,0 +1,24 @@
+.grid-section {
+    max-width: 1280px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.grid-section h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.empty {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+    font-size: 16px;
+}

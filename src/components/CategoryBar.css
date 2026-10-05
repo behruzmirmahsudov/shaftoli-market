@@ -1,0 +1,35 @@
+.cat-bar {
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.cat-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+.cat-item {
+    background: transparent;
+    padding: 8px 14px;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+    transition: 0.2s;
+}
+
+.cat-item:hover {
+    background: #f5f0ff;
+    color: #7000ff;
+}
+
+.cat-item.active {
+    background: #7000ff;
+    color: #fff;
+    font-weight: 600;
+}
